@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #100007;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.choice {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 5px solid black;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 20px;
+}
+
+.scoreBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+  gap: 5rem;
+}
+
+#userScore,
+#compScore {
+  font-size: 4rem;
+}
+
+.msgContainer {
+  margin-top: 3rem;
+}
+
+.msg {
+  background-color: #4c3b4d;
+  color: white;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#resetbtn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #80d39b;
+  color: rgb(1, 0, 0);
+  border-radius: 1rem;
+  border: none;
+  margin-top: 2rem;
+  border: 5px solid black;
+}
+#resetbtn:hover {
+  background-color: rgb(237, 5, 5);
+  color: white;
+  cursor: pointer;
+}
